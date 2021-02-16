@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:id="@+id/container"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alert"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/custom"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="Custom Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fragment"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="Fragment Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/date_picker"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="DatePicker Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/time_picker"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="TimePicker Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bottom_sheet"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="BottomSheet Dialog"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/snackbar"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/radius"
+        android:elevation="10dp"
+        android:text="SnackBar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

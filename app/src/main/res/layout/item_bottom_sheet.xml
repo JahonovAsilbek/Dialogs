@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/Animation.Design.BottomSheetDialog"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="AlertDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="CustomDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="FragmentDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="DatePickerDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="TimePickerDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="BottomSheetDialog"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
